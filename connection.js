@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-/**+-(1)-Instalar Mongoose( https://mongoosejs.com/docs/ ):_ Para Instalar y Poder Usar Mongoose Debemos Primeros debemos Tener Corriendo MongoDB en nuestra PC a través de Ejecutar el Comando "mongod" en la Consola
- *  en la Ubicación de Nuestro Proyecto y luego Instalamos Mongoose Escribiendo y Ejecutando "npm i mongoose" y luego en el/los Archivo/s que queramos usarlo Guardarlo en Una Constante con su 
- * Mismo Nombre en la Requiramos su Módulo NPM, así:_ "const mongoose = require('mongoose');".*/
+/**+-(1)-Instalar Mongoose( https://mongoosejs.com/docs/ ):_ Para Instalar y Poder Usar Mongoose Primero debemos Tener Corriendo MongoDB en nuestra PC a través de Ejecutar 
+  * el Comando "mongod" en la Consola   en la Ubicación de Nuestro Proyecto y luego Instalamos Mongoose Escribiendo y Ejecutando "npm i mongoose" y luego en el/los Archivo/s 
+  * que queramos usarlo, Guardarlo en Una Constante con su Mismo Nombre en la Requiramos su Módulo NPM, así:_ "const mongoose = require('mongoose');".*/
 
 mongoose.connect('mongodb://localhost:27017/mywebstore', {
     useNewUrlParser: true,
